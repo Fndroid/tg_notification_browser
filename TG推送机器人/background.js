@@ -16,7 +16,7 @@ function sendMessage(data) {
 
 chrome.browserAction.onClicked.addListener(function (tab) {
     let data = {
-        text: `[${tab.title}](${tab.url}) - Chrome`,
+        text: `[${tab.title}](${tab.url})`,
         parse_mode: "Markdown",
         disable_web_page_preview: true, 
     }
