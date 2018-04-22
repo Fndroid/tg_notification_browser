@@ -1,0 +1,2 @@
+# tg_notification_chrome
+Chrome的Telegram Bot推送插件
