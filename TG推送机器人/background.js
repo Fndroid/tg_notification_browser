@@ -37,11 +37,7 @@ chrome.contextMenus.onClicked.addListener(function(info, tab) {
     }else if (info.linkUrl) {
         data.text = info.linkUrl
     }else if (info.srcUrl) {
-        if (info.srcUrl.indexOf('https') == 0) {
-            data.photo = info.srcUrl
-        }else {
-            data.text = info.srcUrl
-        }
+        data.photo = info.srcUrl
     }
     sendMessage(data)
 })
