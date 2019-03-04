@@ -1,0 +1,42 @@
+.headView { 
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.contentView {
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    justify-content: space-around;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.contentView #linkIt {
+    font-size: 1.5em;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid grey;
+}
+
+.contentView div label {
+    line-height: 1.5em;
+    font-size: 1.5em;
+    vertical-align: middle;
+}
+
+.contentView div #soundCb {
+    width: 2em;
+    height: 2em;
+    vertical-align: middle;
+}
+
+.contentView #confirmBtn {
+    font-size: 1.5em;
+    outline: none;
+    line-height: 2em;
+    color: #FFF;
+    border: none;
+    background-color: rgb(34, 194, 34);
+    border-radius: 3px;
+}
