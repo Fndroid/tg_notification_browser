@@ -8,18 +8,15 @@
     <link rel="stylesheet" href="options.css">
 </head>
 <body>
-    <div class="mainView">
-        <div class="headView">TG推送插件设置</div>
-        <div class="contentView">
-            <input type="text" placeholder="推送链接" id="linkIt">
-            <div>
-                <label for="soundCb">静默推送（Telegram不提醒）</label>
-                <input type="checkbox" name="" id="soundCb">
-            </div>
-            <input type="button" value="保存" id="confirmBtn">
+    <h1 class="headView">TG推送插件设置</h1>
+    <div class="contentView">
+        <input type="text" id="linkIt" placeholder="请输入TG机器人地址">
+        <div>
+            <label for="soundCb">静默推送（Telegram不提醒）</label>
+            <input type="checkbox" id="soundCb">
         </div>
+        <button id="confirmBtn">确认</button>
     </div>
-
     <script src="options.js"></script>
 </body>
 </html>
